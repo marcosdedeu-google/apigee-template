@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>parent-pom</artifactId>
+        <groupId>liverpool</groupId>
+        <version>1.0</version>
+        <relativePath>parent-pom.xml</relativePath>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>liverpool</groupId>
+    <artifactId>NOMBRE_DE_TU_PROXY</artifactId>
+    <version>1.0</version>
+    <name>NOMBRE_DE_TU_PROXY</name>
+    <packaging>pom</packaging>
+
+    <properties>
+        <apigee.mode>hybrid/x</apigee.mode>
+        <apigee.devEnv>ENVIRONMENT DE DEV</apigee.devEnv>
+        <apigee.qasEnv>ENVIRONMENT DE QAS</apigee.qasEnv>
+        <apigee.preEnv>ENVIRONMENT DE PRE</apigee.preEnv>
+        <apigee.proEnv>ENVIRONMENT DE PRO</apigee.proEnv>
+    </properties>
+
+</project>
